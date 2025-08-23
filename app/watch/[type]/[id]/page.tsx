@@ -9,7 +9,7 @@ import { Show } from "../../../../models/type";
 import WatchClient from "./WatchClient";
 
 interface WatchPageProps {
-  params: { type: string; id: string };
+  params: Promise<{ type: string; id: string }>; // ✅ params أصبحت Promise
 }
 
 // تحديد جميع الصفحات التي سيتم إنشاؤها
@@ -24,8 +24,9 @@ export async function generateStaticParams() {
   ];
 }
 
-export default function WatchPage({ params }: WatchPageProps) {
-  const { type, id } = params;
+// الصفحة نفسها async
+export default async function WatchPage({ params }: WatchPageProps) {
+  const { type, id } = await params; // ✅ ننتظر الـ params
 
   let data: Show[] = [];
 
@@ -35,8 +36,8 @@ export default function WatchPage({ params }: WatchPageProps) {
   else if (type === "programs") data = programs;
   else if (type === "podcasts") data = podcasts;
   else if (type === "plays") data = plays;
-  const show = data?.find((item) => item.id.toString() === id);
 
+  const show = data.find((item) => item.id.toString() === id);
   if (!show) return <p>المحتوى غير موجود</p>;
 
   return <WatchClient show={show} allData={data} type={type} />;

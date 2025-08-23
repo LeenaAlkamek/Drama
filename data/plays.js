@@ -11,6 +11,7 @@ export const plays = [
         year: 2023,
         genre: "كوميديا",
         seasons: 2,
+        type: "plays", 
         crew: {
             producer: {
                 name: "الجند للانتاج الاعلامي",

@@ -11,7 +11,7 @@ import { Actor } from "../../../../models/actortype";
 import DetailsClient from "./DetailsClient";
 
 interface DetailsPageProps {
-  params: { type: string; id: string };
+  params: Promise<{ type: string; id: string }>; // ✅ params أصبحت Promise
 }
 
 export async function generateStaticParams() {
@@ -25,8 +25,9 @@ export async function generateStaticParams() {
   ];
 }
 
-export default function DetailsPage({ params }: DetailsPageProps) {
-  const { type, id } = params;
+// الصفحة نفسها async
+export default async function DetailsPage({ params }: DetailsPageProps) {
+  const { type, id } = await params; // ✅ ننتظر الـ params
 
   let allData: Show[] = [];
   if (type === "series") allData = series;
@@ -46,9 +47,9 @@ export default function DetailsPage({ params }: DetailsPageProps) {
 
   // جلب طاقم العمل كامل
   const cast: Actor[] =
-    show.crew?.cast
+    (show.crew?.cast
       ?.map((actorId) => actors.find((a) => a.id === actorId))
-      .filter((a): a is Actor => Boolean(a)) || [];
+      .filter((a) => a !== undefined) as Actor[]) || [];
 
   return (
     <DetailsClient

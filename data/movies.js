@@ -12,6 +12,7 @@ export const movies = [
         year: 2023,
         genre: "تاريخي ",
         seasons: 1,
+        type: "movies", 
         crew: {
         //    producer: {
         //         name: "قناة يمن شباب",
@@ -41,6 +42,7 @@ export const movies = [
         year: 2024,
         genre: "رومانسي",
         seasons: 1,
+        type: "movies", 
         crew: {
             // producer: {
             //     name: "قناة يمن شباب",

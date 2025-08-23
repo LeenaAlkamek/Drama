@@ -11,6 +11,7 @@ export const podcasts = [
         year: 2023,
         genre: "حوار",
         seasons: 2,
+        type: "podcasts", 
         crew: {
             producer: {
                 name: "قناة السعيدة",

@@ -16,12 +16,13 @@ export interface Producer {
 }
 
 export interface Crew {
-  producer: Producer;   // بدل ما يكون رقم صار object
-  writer: number;       // لسه معرف بـ id
-  director: number;
-  presenter: number;       // id
-  cast: number[];       // مصفوفة ids
+  producer?: Producer; // ✅ مو string
+  writer?: number | string;
+  director?: number | string;
+  presenter?: number;
+  cast?: number[];
 }
+
 
 export interface Show {
   id: number;
@@ -33,6 +34,7 @@ export interface Show {
   seasons?: number;
   image?: string;
   cardimg?: string;
+  type:string;
   crew?: Crew;
   episodes?: Episode[];
   videoEmbedUrl?: string; // للفيلم

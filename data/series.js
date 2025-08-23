@@ -12,6 +12,7 @@ export const series = [
         year: 2024,
         genre: "إثارة",
         seasons: 1,
+        type: "series", 
         crew: {
              producer: {
                 name: "قناة يمن شباب",
@@ -52,6 +53,7 @@ export const series = [
         year: 2025,
         genre: "كوميديا",
         seasons: 1,
+        type: "series", 
         crew: {
             producer: {
                 name: "قناة يمن شباب",
@@ -100,6 +102,7 @@ export const series = [
         year: 2025,
         genre: "كوميدي",
         seasons: 1,
+        type: "series", 
         crew: {
              producer: {
                 name: "قناة السعيدة",
@@ -140,6 +143,7 @@ export const series = [
         year: 2025,
         genre: "إثارة",
         seasons: 2,
+        type: "series", 
         crew: {
             producer: {
                 name: "قناة السعيدة",
@@ -180,6 +184,7 @@ export const series = [
         year: 2025,
         genre: "إثارة",
         seasons: 1,
+        type: "series", 
         crew: {
              producer: {
                 name: "قناة المهرية",
@@ -220,6 +225,7 @@ export const series = [
         year: 2025,
         genre: "دراما",
         seasons: 1,
+        type: "series", 
         crew: {
             producer: {
                 name: "قناة يمن شباب",

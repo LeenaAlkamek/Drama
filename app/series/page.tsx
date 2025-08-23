@@ -6,6 +6,7 @@ import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import SeriesCard from './SeriesCard';
 import { series } from "../../data/series";
+import { Show } from "../../models/type"; 
 
 export default function Series() {
   const [selectedGenre, setSelectedGenre] = useState('الكل');
@@ -68,7 +69,21 @@ export default function Series() {
 
         <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4 md:gap-6 pb-16">
           {sortedSeries.map((show) => (
-            <SeriesCard key={show.id} series={show} />
+            <SeriesCard
+              key={show.id}
+              series={{
+                ...show,
+                image: show.image ?? '',
+                crew: {
+                  ...show.crew,
+                  writer: typeof show.crew.writer === 'number' ? String(show.crew.writer) : show.crew.writer,
+                  director: typeof show.crew.director === 'number' ? String(show.crew.director) : show.crew.director,
+                  cast: Array.isArray(show.crew.cast)
+                    ? show.crew.cast.map((c) => typeof c === 'number' ? String(c) : c)
+                    : [],
+                },
+              }}
+            />
           ))}
         </div>
       </div>

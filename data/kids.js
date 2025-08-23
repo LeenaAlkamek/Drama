@@ -12,6 +12,7 @@ export const kids = [
         year: 2023,
         genre: "مغامرة",
         seasons: 2,
+        type: "kids", 
         crew: {
             producer: {
                 name: "قناة يمن شباب",

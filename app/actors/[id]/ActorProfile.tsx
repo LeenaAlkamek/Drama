@@ -121,7 +121,7 @@ export default function ActorProfile({ actor, works }: ActorProfileProps) {
             <section>
               <h3 className="text-2xl font-bold mb-6">الجوائز والتكريمات</h3>
               <div className="space-y-4">
-                {actor.awards.map((award, index) => (
+                {actor.awards && actor.awards.map((award, index) => (
                   <AwardCard key={index} award={award} />
                 ))}
               </div>

@@ -1,5 +1,3 @@
-// src/data/actors.js
-/** @type {import('../models/types').Actor[]} */
 
 export const actors = [
   {
@@ -7,7 +5,7 @@ export const actors = [
     name: 'ابوبكر سالم',
     nameEn: 'Abobakr Salem',
     image: '/actors/ابوبكر.webp',
-    coverImage: "",
+    coverImage: '/actors/ابوبكر.webp',
     nationality: 'يمني',
     birthDate: '1988-05-23',
     age: 37,
@@ -22,8 +20,8 @@ export const actors = [
       facebook: 'AbobakrSalemOfficial'
     },
     bio: 'أبوبكر سالم ⚡ممثل تلفزيوني وكاتب سيناريو يمني ⚡شارك بالتمثيل والكتابة في عدد من الأعمال والبرامج الفنية⚡',
-    works: [
-       ]
+    // works: [
+    //    ]
   },
   
   {
@@ -56,7 +54,7 @@ export const actors = [
     name: 'محمد الاموي',
     nameEn: 'Mohammed Alamawi',
     image: '/actors/محمد الاموي.webp',
-    coverImage: "",
+    coverImage: '/actors/محمد الاموي.webp',
     nationality: 'يمني',
     birthDate: '1998-01-15',
     age: 27,
@@ -81,7 +79,7 @@ export const actors = [
     name: 'محمد الزرقاوي',
     nameEn: 'Mohammed Alzarqawi',
     image: '/actors/محمد الزرقاوي.webp',
-    coverImage: "",
+    coverImage: '/actors/محمد الزرقاوي.webp',
     nationality: 'يمني',
     birthDate: '1996-08-10',
     age: 29,
@@ -106,7 +104,7 @@ export const actors = [
     name: 'حسام الشراعي',
     nameEn: 'Hosam Alsherai',
     image: '/actors/حسام الشراعي.webp',
-    coverImage: "",
+    coverImage: '/actors/حسام الشراعي.webp',
     nationality: 'يمني',
     birthDate: '1975-05-12',
     age: 50,
@@ -131,7 +129,7 @@ export const actors = [
     name: 'ابراهيم الابيض',
     nameEn: 'Ebrahim Alabiad',
     image: '/actors/ابراهيم الابيض.webp',
-    coverImage: "",
+    coverImage: '/actors/ابراهيم الابيض.webp',
     nationality: 'يمني',
     birthDate: '1954-09-22',
     age: 71,
@@ -146,15 +144,15 @@ export const actors = [
       facebook: 'EbrahimAlabiad'
     },
     bio: 'إبراهيم علي غالب الابيض⚡ مخرج يمني ⚡من محافظة ذمار ⚡ اشتهر بإخراجه لعشرات المسلسلات اليمنية⚡',
-    works: [
-      ]
+    // works: [
+    //   ]
   },
   {
     id: 7,
     name: 'ادم سيف',
     nameEn: 'Adam Saif',
     image: '/actors/ادم سيف.webp',
-    coverImage: "",
+    coverImage: '/actors/ادم سيف.webp',
     nationality: 'يمني',
     birthDate: '1957-03-14',
     age: 68,
@@ -169,15 +167,15 @@ export const actors = [
       facebook: 'AdamSaifOfficial'
     },
     bio: 'الفنان آدم سيف إسماعيل العزيبي ⚡فنان يمني كوميدي ومؤلف وكاتب ⚡اشتهر بشخصية دحباش⚡',
-    works: [
-      ]
+    // works: [
+    //   ]
   },
   {
     id: 8,
     name: 'اسامه الصالحي',
     nameEn: 'Osama Al-Salihi',
     image: '/actors/اسامة.webp',
-    coverImage: "",
+    coverImage: '/actors/اسامة.webp',
     nationality: 'يمني',
     birthDate: '1980-06-19',
     age: 45,
@@ -192,15 +190,15 @@ export const actors = [
       facebook: 'OsamaAlSalihi'
     },
     bio: 'ممثل يمني ⚡شارك في مسرحية الفضاء ⚡وعدة أعمال تلفزيونية⚡',
-    works: [
-      ]
+    // works: [
+    //   ]
   },
   {
     id: 9,
     name: 'هديل مانع',
     nameEn: 'Hadeel Manea',
     image: '/actors/هديل مانع.webp',
-    coverImage: "",
+    coverImage: '/actors/هديل مانع.webp',
     nationality: 'يمنية',
     birthDate: '1999-12-22',
     age: 25,
@@ -224,7 +222,7 @@ export const actors = [
     name: 'محمد قحطان',
     nameEn: 'Mohammed Qhtan',
     image: '/actors/محمد قحطان.webp',
-    coverImage: "",
+    coverImage: '/actors/محمد قحطان.webp',
     nationality: 'يمني',
     birthDate: '1979-04-10',
     age: 46,
@@ -249,7 +247,7 @@ export const actors = [
     name: 'صدام حسن',
     nameEn: 'sadam hasan',
     image: '/actors/صدام حسن.webp',
-    coverImage: "",
+    coverImage: '/actors/صدام حسن.webp',
     nationality: 'يمني',
     birthDate: '1979-04-10',
     age: 46,
@@ -274,7 +272,7 @@ export const actors = [
     name: 'عبد الحكيم الحدي',
     nameEn: 'abdulhakim Alhadi',
     image: '/actors/عبد الحكيم.webp',
-    coverImage: "",
+    coverImage: '/actors/عبد الحكيم.webp',
     nationality: 'يمني',
     birthDate: '1979-04-10',
     age: 46,
@@ -299,7 +297,7 @@ export const actors = [
     name: 'نذير الحمادي',
     nameEn: 'nazeer alhamadi ',
     image: '/actors/نذير.webp',
-    coverImage: "",
+    coverImage:'/actors/نذير.webp',
     nationality: 'يمني',
     birthDate: '1979-04-10',
     age: 46,
@@ -324,7 +322,7 @@ export const actors = [
     name: 'علاء الفردي',
     nameEn: 'Ala alfardi',
     image: '/actors/علاء.webp',
-    coverImage: "",
+    coverImage: '/actors/علاء.webp',
     nationality: 'يمني',
     birthDate: '1979-04-10',
     age: 46,
@@ -349,7 +347,7 @@ export const actors = [
     name: 'نور ناجي ',
     nameEn: 'Nour Nagee',
     image: '/actors/نور.webp',
-    coverImage: "",
+    coverImage: '/actors/نور.webp',
     nationality: 'يمني',
     birthDate: '1979-04-10',
     age: 46,
@@ -375,7 +373,7 @@ export const actors = [
     name: 'فهد القرني',
     nameEn: 'fahd alkarani',
     image: '/actors/فهد.webp',
-    coverImage: "",
+    coverImage: '/actors/فهد.webp',
     nationality: 'يمني',
     birthDate: '1975-5-5',
     age: 46,
@@ -402,7 +400,7 @@ export const actors = [
     name: 'سيف الوافي',
     nameEn: 'saif alwafi',
     image: '/actors/سيف.webp',
-    coverImage: "",
+    coverImage: '/actors/سيف.webp',
     nationality: 'يمني',
     birthDate: '1975-5-5',
     age: 46,
@@ -428,8 +426,8 @@ export const actors = [
     id: 18,
     name: 'رندا الحمادي',
     nameEn: 'randa alhamadi',
-    image: '/actors/',
-    coverImage: "",
+    image: '/actors/رندا.webp',
+    coverImage: '/actors/رندا.webp',
     nationality: 'يمني',
     birthDate: '1995-5-5',
     age: 46,
@@ -454,8 +452,8 @@ export const actors = [
     id: 19,
     name: 'صالح طارق',
     nameEn: 'salh tariq',
-    image: '/actors/',
-    coverImage: "",
+    image: '/actors/صالح.webp',
+    coverImage: '/actors/صالح.webp',
     nationality: 'يمني',
     birthDate: '1995-5-5',
     age: 36,
@@ -481,8 +479,8 @@ export const actors = [
     name: 'اشواق علي',
     nameEn: 'Ashwaq Ali',
     image: '/actors/اشواق.webp',
-    coverImage: "",
-    nationality: 'هيمني',
+    coverImage: '/actors/اشواق.webp',
+    nationality: 'يمنيه',
     birthDate: '1999',
     age: 36,
     worksCount: 38,
@@ -495,7 +493,7 @@ export const actors = [
       twitter: '@mqhtan',
       facebook: 'MohammedQhtanOfficial'
     },
-    bio: 'اشولق علي   ، ممثله يمنيه ',
+    bio: 'اشواق علي   ، ممثله يمنيه ',
     works: [
      { id: 1 , type: 'series'},
      { id: 4 , type: 'series'},

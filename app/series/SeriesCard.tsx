@@ -2,9 +2,16 @@
 
 import Link from "next/link";
 import { useState } from "react";
+import { Show } from "../../models/type"; // لو عندك النوع معرف مسبقاً
+
+export interface Producer {
+  name: string;
+  logo: string;
+  website?: string; // اختياري
+}
 
 interface Crew {
-  producer: string;
+  producer: Producer;
   writer: string;
   director: string;
   cast: string[]; // قائمة الممثلين

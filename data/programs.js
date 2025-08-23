@@ -11,6 +11,7 @@ export const programs = [
         year: 2023,
         genre: "ديني",
         seasons: 2,
+        type: "prohrams", 
         crew: {
             producer: {
                 name: "قناة السعيدة",
