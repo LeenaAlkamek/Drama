@@ -19,35 +19,17 @@
       "static/chunks/4bd1b696-c023c6e3521b1417.js",
       "static/chunks/255-e2f794a071b5ab87.js",
       "static/chunks/main-app-1009f4d1565e565e.js",
-      "static/css/9ea4b3a7dacd1497.css",
+      "static/css/7782cf606bed49b1.css",
       "static/chunks/app/layout-f569236303fe12f5.js"
     ],
-    "/actors/page": [
+    "/movies/page": [
       "static/chunks/webpack-f1fbd7da4afab546.js",
       "static/chunks/4bd1b696-c023c6e3521b1417.js",
       "static/chunks/255-e2f794a071b5ab87.js",
       "static/chunks/main-app-1009f4d1565e565e.js",
       "static/chunks/619-ba102abea3e3d0e4.js",
-      "static/chunks/67-9133c8c46b772cd4.js",
-      "static/chunks/app/actors/page-761d009feb957d73.js"
-    ],
-    "/kids/page": [
-      "static/chunks/webpack-f1fbd7da4afab546.js",
-      "static/chunks/4bd1b696-c023c6e3521b1417.js",
-      "static/chunks/255-e2f794a071b5ab87.js",
-      "static/chunks/main-app-1009f4d1565e565e.js",
-      "static/chunks/619-ba102abea3e3d0e4.js",
-      "static/chunks/67-9133c8c46b772cd4.js",
-      "static/chunks/app/kids/page-6d736d4b80db8657.js"
-    ],
-    "/plays/page": [
-      "static/chunks/webpack-f1fbd7da4afab546.js",
-      "static/chunks/4bd1b696-c023c6e3521b1417.js",
-      "static/chunks/255-e2f794a071b5ab87.js",
-      "static/chunks/main-app-1009f4d1565e565e.js",
-      "static/chunks/619-ba102abea3e3d0e4.js",
-      "static/chunks/67-9133c8c46b772cd4.js",
-      "static/chunks/app/plays/page-2e540f297fb7b2f6.js"
+      "static/chunks/67-f16be6ab82f89419.js",
+      "static/chunks/app/movies/page-13af5ff52e2e8935.js"
     ],
     "/page": [
       "static/chunks/webpack-f1fbd7da4afab546.js",
@@ -56,9 +38,27 @@
       "static/chunks/main-app-1009f4d1565e565e.js",
       "static/css/772f6661360af590.css",
       "static/chunks/619-ba102abea3e3d0e4.js",
-      "static/chunks/405-ee73e54b10b05198.js",
-      "static/chunks/67-9133c8c46b772cd4.js",
-      "static/chunks/app/page-d0054765b458545c.js"
+      "static/chunks/405-b6601c8c67a17f1c.js",
+      "static/chunks/67-f16be6ab82f89419.js",
+      "static/chunks/app/page-2e668f23e2e16458.js"
+    ],
+    "/kids/page": [
+      "static/chunks/webpack-f1fbd7da4afab546.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-e2f794a071b5ab87.js",
+      "static/chunks/main-app-1009f4d1565e565e.js",
+      "static/chunks/619-ba102abea3e3d0e4.js",
+      "static/chunks/67-f16be6ab82f89419.js",
+      "static/chunks/app/kids/page-6d736d4b80db8657.js"
+    ],
+    "/plays/page": [
+      "static/chunks/webpack-f1fbd7da4afab546.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-e2f794a071b5ab87.js",
+      "static/chunks/main-app-1009f4d1565e565e.js",
+      "static/chunks/619-ba102abea3e3d0e4.js",
+      "static/chunks/67-f16be6ab82f89419.js",
+      "static/chunks/app/plays/page-2e540f297fb7b2f6.js"
     ],
     "/programs/page": [
       "static/chunks/webpack-f1fbd7da4afab546.js",
@@ -66,17 +66,8 @@
       "static/chunks/255-e2f794a071b5ab87.js",
       "static/chunks/main-app-1009f4d1565e565e.js",
       "static/chunks/619-ba102abea3e3d0e4.js",
-      "static/chunks/67-9133c8c46b772cd4.js",
+      "static/chunks/67-f16be6ab82f89419.js",
       "static/chunks/app/programs/page-965e17f01f21c879.js"
-    ],
-    "/series/page": [
-      "static/chunks/webpack-f1fbd7da4afab546.js",
-      "static/chunks/4bd1b696-c023c6e3521b1417.js",
-      "static/chunks/255-e2f794a071b5ab87.js",
-      "static/chunks/main-app-1009f4d1565e565e.js",
-      "static/chunks/619-ba102abea3e3d0e4.js",
-      "static/chunks/67-9133c8c46b772cd4.js",
-      "static/chunks/app/series/page-f46fe13d57577660.js"
     ],
     "/podcasts/page": [
       "static/chunks/webpack-f1fbd7da4afab546.js",
@@ -84,35 +75,17 @@
       "static/chunks/255-e2f794a071b5ab87.js",
       "static/chunks/main-app-1009f4d1565e565e.js",
       "static/chunks/619-ba102abea3e3d0e4.js",
-      "static/chunks/67-9133c8c46b772cd4.js",
+      "static/chunks/67-f16be6ab82f89419.js",
       "static/chunks/app/podcasts/page-047c246c6de154d2.js"
     ],
-    "/movies/page": [
+    "/series/page": [
       "static/chunks/webpack-f1fbd7da4afab546.js",
       "static/chunks/4bd1b696-c023c6e3521b1417.js",
       "static/chunks/255-e2f794a071b5ab87.js",
       "static/chunks/main-app-1009f4d1565e565e.js",
       "static/chunks/619-ba102abea3e3d0e4.js",
-      "static/chunks/67-9133c8c46b772cd4.js",
-      "static/chunks/app/movies/page-13af5ff52e2e8935.js"
-    ],
-    "/actors/[id]/page": [
-      "static/chunks/webpack-f1fbd7da4afab546.js",
-      "static/chunks/4bd1b696-c023c6e3521b1417.js",
-      "static/chunks/255-e2f794a071b5ab87.js",
-      "static/chunks/main-app-1009f4d1565e565e.js",
-      "static/chunks/619-ba102abea3e3d0e4.js",
-      "static/chunks/67-9133c8c46b772cd4.js",
-      "static/chunks/app/actors/[id]/page-51433fd733c552f8.js"
-    ],
-    "/details/[type]/[id]/page": [
-      "static/chunks/webpack-f1fbd7da4afab546.js",
-      "static/chunks/4bd1b696-c023c6e3521b1417.js",
-      "static/chunks/255-e2f794a071b5ab87.js",
-      "static/chunks/main-app-1009f4d1565e565e.js",
-      "static/chunks/619-ba102abea3e3d0e4.js",
-      "static/chunks/67-9133c8c46b772cd4.js",
-      "static/chunks/app/details/[type]/[id]/page-f149abfbf6850c55.js"
+      "static/chunks/67-f16be6ab82f89419.js",
+      "static/chunks/app/series/page-f46fe13d57577660.js"
     ],
     "/watch/[type]/[id]/page": [
       "static/chunks/webpack-f1fbd7da4afab546.js",
@@ -120,6 +93,15 @@
       "static/chunks/255-e2f794a071b5ab87.js",
       "static/chunks/main-app-1009f4d1565e565e.js",
       "static/chunks/app/watch/[type]/[id]/page-85202912c8581d0b.js"
+    ],
+    "/details/[type]/[id]/page": [
+      "static/chunks/webpack-f1fbd7da4afab546.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-e2f794a071b5ab87.js",
+      "static/chunks/main-app-1009f4d1565e565e.js",
+      "static/chunks/619-ba102abea3e3d0e4.js",
+      "static/chunks/67-f16be6ab82f89419.js",
+      "static/chunks/app/details/[type]/[id]/page-08bc49dbad22f375.js"
     ]
   }
 }

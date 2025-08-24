@@ -1,14 +1,12 @@
 {
   "/_not-found/page": "app/_not-found/page.js",
-  "/actors/page": "app/actors/page.js",
+  "/movies/page": "app/movies/page.js",
+  "/page": "app/page.js",
   "/kids/page": "app/kids/page.js",
   "/plays/page": "app/plays/page.js",
-  "/page": "app/page.js",
   "/programs/page": "app/programs/page.js",
-  "/series/page": "app/series/page.js",
   "/podcasts/page": "app/podcasts/page.js",
-  "/movies/page": "app/movies/page.js",
-  "/actors/[id]/page": "app/actors/[id]/page.js",
-  "/details/[type]/[id]/page": "app/details/[type]/[id]/page.js",
-  "/watch/[type]/[id]/page": "app/watch/[type]/[id]/page.js"
+  "/series/page": "app/series/page.js",
+  "/watch/[type]/[id]/page": "app/watch/[type]/[id]/page.js",
+  "/details/[type]/[id]/page": "app/details/[type]/[id]/page.js"
 }

@@ -1,14 +1,12 @@
 {
   "/_not-found/page": "/_not-found",
-  "/actors/page": "/actors",
+  "/movies/page": "/movies",
+  "/page": "/",
   "/kids/page": "/kids",
   "/plays/page": "/plays",
-  "/page": "/",
   "/programs/page": "/programs",
-  "/series/page": "/series",
   "/podcasts/page": "/podcasts",
-  "/movies/page": "/movies",
-  "/actors/[id]/page": "/actors/[id]",
-  "/details/[type]/[id]/page": "/details/[type]/[id]",
-  "/watch/[type]/[id]/page": "/watch/[type]/[id]"
+  "/series/page": "/series",
+  "/watch/[type]/[id]/page": "/watch/[type]/[id]",
+  "/details/[type]/[id]/page": "/details/[type]/[id]"
 }

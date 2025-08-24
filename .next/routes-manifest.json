@@ -20,14 +20,6 @@
   },
   "dynamicRoutes": [
     {
-      "page": "/actors/[id]",
-      "regex": "^/actors/([^/]+?)(?:/)?$",
-      "routeKeys": {
-        "nxtPid": "nxtPid"
-      },
-      "namedRegex": "^/actors/(?<nxtPid>[^/]+?)(?:/)?$"
-    },
-    {
       "page": "/details/[type]/[id]",
       "regex": "^/details/([^/]+?)/([^/]+?)(?:/)?$",
       "routeKeys": {
@@ -58,12 +50,6 @@
       "regex": "^/_not\\-found(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/_not\\-found(?:/)?$"
-    },
-    {
-      "page": "/actors",
-      "regex": "^/actors(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/actors(?:/)?$"
     },
     {
       "page": "/kids",

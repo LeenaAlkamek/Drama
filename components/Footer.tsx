@@ -188,11 +188,11 @@ export default function Footer() {
             <p className="text-gray-400 text-sm">
               © 2025 YemenDrama. جميع الحقوق محفوظة.
             </p>
-            <div className="flex items-center space-x-6 mt-4 md:mt-0">
+            {/* <div className="flex items-center space-x-6 mt-4 md:mt-0">
               <span className="text-gray-400 text-xs">صُنع بـ</span>
               <i className="ri-heart-fill text-red-500 w-4 h-4 flex items-center justify-center"></i>
               <span className="text-gray-400 text-xs">في الوطن العربي</span>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
