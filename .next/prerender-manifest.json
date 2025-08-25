@@ -1,1 +1,11 @@
-{"version":4,"routes":{"/actorsprofile/1":{},"/actorsprofile/2":{},"/actorsprofile/3":{},"/actorsprofile/4":{},"/actorsprofile/5":{},"/actorsprofile/6":{},"/actorsprofile/7":{},"/actorsprofile/8":{},"/actorsprofile/9":{},"/actorsprofile/10":{},"/actorsprofile/11":{},"/actorsprofile/12":{},"/actorsprofile/13":{},"/actorsprofile/14":{},"/actorsprofile/15":{},"/actorsprofile/16":{},"/actorsprofile/17":{},"/actorsprofile/18":{},"/actorsprofile/19":{},"/actorsprofile/20":{}},"dynamicRoutes":{"/actorsprofile/[id]":{"dataRoute":null,"dataRouteRegex":null,"fallback":null,"fallbackRevalidate":false,"fallbackSourceRoute":"/actorsprofile/[id]","routeRegex":"^\\/actorsprofile\\/([^/]+?)(?:\\/)?$","allowHeader":[]}},"notFoundRoutes":[],"preview":{"previewModeId":"3522f1b91b161450e2cf31bcd09695aa","previewModeSigningKey":"a81858ac612c7804ede7eee8c34c0aff393bdab934b4ca48be1335f2a82390c4","previewModeEncryptionKey":"506cd9b47321bb7cfe1f14c1ef75a9d46ab5ff81bdf642323dc7a2797aeac836"}}
+{
+  "version": 4,
+  "routes": {},
+  "dynamicRoutes": {},
+  "notFoundRoutes": [],
+  "preview": {
+    "previewModeId": "809f50224694aed663a2080d9d486754",
+    "previewModeSigningKey": "a5f8f34487d468475ece83fe7a84bf43abb4892459db1a1b3f44cccdf5a38059",
+    "previewModeEncryptionKey": "53c58c217bd6c911a0677c3adf13bb99f282b0b97c0092df396eed7ad806c717"
+  }
+}

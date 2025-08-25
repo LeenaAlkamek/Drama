@@ -16,7 +16,7 @@ export default function Header() {
               href="/"
               className="text-red-600 text-2xl font-bold font-[Pacifico]"
             >
-              YemenDrama
+              YemenMedia
             </Link>
 
             <nav className="hidden md:flex items-center space-x-reverse space-x-6">

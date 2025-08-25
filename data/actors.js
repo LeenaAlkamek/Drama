@@ -27,7 +27,7 @@ export const actors = [
   {
     id: 2,
     name: 'عبدالمجيد الخديري',
-    nameEn: 'Abdulmageed Alkadiry',
+    nameEn: 'مؤسس منصة يمن ميديا',
     image: '/actors/مجيد.webp',
     coverImage: '/actors/مجيد.webp',
     nationality: 'يمني',
@@ -182,7 +182,7 @@ export const actors = [
     worksCount: 33,
     rating: 4.6,
     followers: '900K',
-    genre: "ممثل",
+    genre: "منتج",
     awards: [],
     socialMedia: {
       instagram: '@osama_alsalihi',
