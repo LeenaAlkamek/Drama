@@ -30,7 +30,7 @@ export default function Header() {
               href="/"
               className="text-red-600 text-2xl font-bold font-[Pacifico]"
             >
-              YemenMedia
+              YemenDrama
             </Link>
 
             {/* قائمة اللابتوب */}
@@ -185,6 +185,12 @@ export default function Header() {
                 className="text-white hover:text-red-500 transition-colors"
               >
                 الرئيسية
+              </Link>
+               <Link
+                href="/about"
+                className="text-white hover:text-red-500 transition-colors whitespace-nowrap"
+              >
+                نحن
               </Link>
               <Link
                 href="/series"
